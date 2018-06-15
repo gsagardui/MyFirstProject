@@ -15,7 +15,7 @@ public class SumaTest {
 	  @Test
 	  public void testSuma() {
 	    MyFirstMaven tester = new MyFirstMaven();
-	    assertEquals("10 + 5 must be 15", 20, tester.suma(10, 5));
+	    assertEquals("10 + 5 must be 15", 10, tester.suma(10, 5));
 	  
        }
 	  @Test
