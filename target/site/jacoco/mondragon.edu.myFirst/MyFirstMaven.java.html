@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>MyFirstMaven.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">mavenExample</a> &gt; <a href="index.source.html" class="el_package">mondragon.edu.myFirst</a> &gt; <span class="el_source">MyFirstMaven.java</span></div><h1>MyFirstMaven.java</h1><pre class="source lang-java linenums">package mondragon.edu.myFirst;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+import java.util.AbstractCollection;
+import java.util.AbstractList;
+
+<span class="fc" id="L8">public class MyFirstMaven{</span>
+		
+		public int suma(int x, int y) {
+			    // the following is just an example
+<span class="fc" id="L12">			     return x + y;</span>
+			  }
+		 
+		 public static void main(String[] args) {
+			 try{
+<span class="nc" id="L17">				    PrintWriter writer = new PrintWriter(&quot;MavenTest.txt&quot;, &quot;UTF-8&quot;);</span>
+<span class="nc" id="L18">				    writer.println(&quot;The first line&quot;);</span>
+<span class="nc" id="L19">				    writer.println(&quot;The second line&quot;);</span>
+<span class="nc" id="L20">				    writer.close();</span>
+<span class="nc" id="L21">				} catch (IOException e) {</span>
+				   // do something
+<span class="nc" id="L23">				}</span>
+<span class="nc" id="L24">		    }</span>
+
+
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
